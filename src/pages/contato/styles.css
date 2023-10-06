@@ -1,0 +1,62 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 2px;
+}
+
+.box{
+    position: absolute;
+    top: 0px;
+    left: 30%;
+    transform: translate(50%, 50%);
+    background-color: gray;
+    padding: 15px;
+    border-radius: 15px;
+    width: 20%;
+    font-size: 60px;
+}
+fieldset {
+    border: 3px solid red;
+}
+legend {
+    border: 1px solid red;
+    padding: 10px;
+    text-align: center;
+    background-color: red;
+    border-radius: 8px;
+    color: white;
+}
+.inputBox{
+    position: relative;
+}
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+#data-nascimento{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    background-color: white;
+    font-size: 15px;
+}
+#submit{
+    background-color: red;
+    width: 100%;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: white;
+    color: black;
+}
